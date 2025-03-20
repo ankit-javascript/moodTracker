@@ -9,9 +9,12 @@
 - Interactive UI with a simple and clean design.
 
 ## Screenshots
-
+![Mood Tracker Thumbnail](image.png)
 
 ## Deployment Link
+
+
+[Live Demo](https://mood-tracker-rdm3.onrender.com)
 
 
 ## How to Use
@@ -22,6 +25,10 @@
 
 ## Installation
 
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/ankit-javascript/moodTracker.git
+   ```
 2. Open `index.html` in a browser.
 3. Start tracking your moods!
 
