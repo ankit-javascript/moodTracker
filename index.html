@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css">
+  <title>Calendar Note</title>
+</head>
+
+<body>
+
+  <div id="noteContainer">
+    <p id="noteTitle"></p>
+    <p id="noteContent"></p>
+
+    <h1>Pick your mood today:</h1>
+    <label>
+        <input type="radio" name="emoji" value="😀"> 😀
+    </label>
+    <label>
+        <input type="radio" name="emoji" value="😞"> 😞
+    </label>
+    <label>
+        <input type="radio" name="emoji" value="😎"> 😎
+    </label>
+    <label>
+        <input type="radio" name="emoji" value="😕"> 😕
+    </label>
+    <label>
+        <input type="radio" name="emoji" value="😤"> 😤
+    </label>
+    <label>
+        <input type="radio" name="emoji" value="😜"> 😜
+    </label>
+
+  </div>
+
+  <div id="selector">
+    <button onclick="prevYear()">&lt;&lt;</button>
+    <button onclick="prevMonth()">&lt;</button>
+    <span id="monthYear"></span>
+    <button onclick="nextMonth()">&gt;</button>
+    <button onclick="nextYear()">&gt;&gt;</button>
+  </div>
+
+  <div id="calendarContainer">
+    <!-- <h1 id="calendarTitle"></h1> -->
+    <div id="calendarGrid"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
